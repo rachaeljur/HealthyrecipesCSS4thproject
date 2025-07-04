@@ -1,0 +1,31 @@
+img {
+  height: 150px;
+}
+/* single selector in CSS of image (line9) made smaller in height*/
+.description {
+  font-size: 20px;
+}
+/* using the p class="descripton" selector (line14) to increase font size to 20px*/
+#cook-time {
+  font-weight: bold;
+}
+/* using p id="cook-time" selector on line 19 to make the text bold*/
+.ingredients li {
+  list-style: square;
+}
+/* using class selector in ul with li (line22) <ul class ="ingredients". This line 22 has chnaged to Square bullet types for unordered List Items*/
+p.time {
+  color: gray;
+}
+/* p.time changes the fotn color to gray of line 36- p class ="time" selector*/
+p.citation .external-link{
+  color: SeaGreen;
+}
+/* using mutiple nested class selectors on lines 48 (class="citation") and line 53 (class="external-link) Using a very specific class selectors of .external-link and .citation within the p element selector*/
+p,
+h1,
+h2,
+li{
+  font-family:Helvetica;
+}
+/* using multiple selectors in CSS to make default Helvetica font family for p,h1,h2 and li.*/
